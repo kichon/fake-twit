@@ -1,0 +1,38 @@
+<div id='signup_form'>
+  <?php echo $form->create('User', array('type' => 'post', 'action' => 'signup')); ?>
+  <table class='signup_table'>
+    <tr>
+      <th>username</th>
+      <td><?php echo $form->text('User.name', array('size' => 20)); ?></td>
+    </tr>
+    <tr>
+      <th>email</th>
+      <td><?php echo $form->text('User.email', array('size' => 20)); ?></td>
+    </tr>
+    <tr>
+      <th>password</th>
+      <td><?php echo $form->password('User.passwd', array('size' => 20, 'value' => '')); ?></td>
+    </tr>
+    <tr>
+      <th>password again</th>
+      <td><?php echo $form->password('User.passwdVerify', array('size' => 20, 'value' => '')); ?></td>
+    </tr>
+    <tr>
+      <th></th>
+      <td><?php echo $form->end('Create my account'); ?></td>
+    </tr>
+  </table>
+</div>
+<div id="print_data">
+  <?php if (!empty($errors)): ?>
+    <?php foreach($errors as $error): ?>
+      <?php echo $error; ?><br />
+    <?php endforeach; ?>
+  <?php endif; ?>
+  <?php if (!empty($data)): ?>
+    <?php print_r($data); ?>
+  <?php endif; ?>
+  <?php if (!empty($lastid)): ?>
+    <?php echo $lastid; ?>
+  <?php endif; ?>
+</div>

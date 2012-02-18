@@ -1,0 +1,159 @@
+body {
+  background-color: #353535;
+}
+
+#container {
+  width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  width: 750px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#header h1 {
+  font-size: 2em;
+  color: #FFFFFF;
+}
+
+#contents {
+  width: 750px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+}
+
+/* start login.html */
+#content_1 {
+  border: 1px solid #000;
+  font-size: 11px;
+}
+
+#content_1 p {
+  margin-left: 10px;
+}
+
+#wrapper {
+  border: 1px solid #000;
+  font-size: 11px;
+}
+
+.login-fieldset {
+  margin: 0;
+  border: none;
+}
+
+.login-table {
+  border-collapse: separate;
+  border-spacing: 20px 20px;
+}
+
+/* end login.html */
+/* start mypage.html */
+/* start main-content */
+
+#main-content {
+  float: left;
+  width: 500px;
+  background-color: #FFFFFF;
+}
+
+#home-header {
+  margin-left: 20px;
+}
+
+#tweet-box-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+
+#tweet-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#tweet-box-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#tweets-area {
+  margin-left: 8px;
+}
+
+/* end main-contents */
+/* start dashboard */
+
+#dashboard {
+  float: right;
+  width: 250px;
+  background-color: #FFFFFF;
+}
+
+#my-prof {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#my-photo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#my-name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#my-comment {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+/* end dashboard */
+/* end mypage.html */
+/* start profile.html */
+#page-header {
+  border: 1px solid #000;
+  font-size: 9px;
+}
+
+.sumbnail {
+  margin-right: 10px;
+}
+/* end profile.html */
+
+
+#contents:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#footer {
+  float: both;
+  width: 750px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer p {
+  font-size: 10px;
+  text-align: right; 
+  color: #FFFFFF;
+}
